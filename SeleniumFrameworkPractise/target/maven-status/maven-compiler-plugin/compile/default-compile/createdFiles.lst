@@ -1,0 +1,7 @@
+FrameworkLearning\pageObjects\LandingPage.class
+FrameworkLearning\pageObjects\OrderPage.class
+FrameworkLearning\pageObjects\Productcatalogue.class
+FrameworkLearning\pageObjects\ConfirmationPage.class
+FrameworkLearning\pageObjects\CheckoutPage.class
+FrameworkLearning\pageObjects\cartPage.class
+FrameworkLearning\AbstractComponents\AbstractComponents.class
