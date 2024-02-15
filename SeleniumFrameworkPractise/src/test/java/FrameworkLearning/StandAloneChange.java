@@ -52,17 +52,20 @@ public class StandAloneChange extends BaseTest {
 		CheckoutPage.selectcountrydropdown();
 		// Thread.sleep(7000);
 		System.out.println("Country");
+		System.out.println("CountryModified");
+		System.out.println("CountryModified2");
+		System.out.println("CountryModified3");
 		ConfirmationPage ConfirmationPage = CheckoutPage.submitOrder();
 		System.out.println("Confirm");
 		String Orderplacedmsg = ConfirmationPage.verifyConfirmationMessage();
 		System.out.println(Orderplacedmsg);
 		Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		//Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-		//Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-		System.out.println("THANKYOU FOR THE ORDER");
-		System.out.println("THANKYOU FOR THE ORDER1");
-		System.out.println("THANKYOU FOR THE ORDER2");
-		System.out.println("THANKYOU FOR THE ORDER3");
+				//Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+				System.out.println("THANKYOU FOR THE ORDER");
+				System.out.println("THANKYOU FOR THE ORDER1");
+				System.out.println("THANKYOU FOR THE ORDER2");
+				System.out.println("THANKYOU FOR THE ORDER3");
 	}
 
 	// To verify the order display values
