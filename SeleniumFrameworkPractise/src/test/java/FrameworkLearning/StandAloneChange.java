@@ -57,7 +57,12 @@ public class StandAloneChange extends BaseTest {
 		String Orderplacedmsg = ConfirmationPage.verifyConfirmationMessage();
 		System.out.println(Orderplacedmsg);
 		Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-
+		//Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		//Assert.assertTrue(Orderplacedmsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+		System.out.println("THANKYOU FOR THE ORDER");
+		System.out.println("THANKYOU FOR THE ORDER1");
+		System.out.println("THANKYOU FOR THE ORDER2");
+		System.out.println("THANKYOU FOR THE ORDER3");
 	}
 
 	// To verify the order display values
